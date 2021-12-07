@@ -126,7 +126,7 @@ production stylesheet in assets/built/screen.css
 }
 
 .site-logo {
-    max-height: 55px;
+    height: 260px;
 }
 
 .site-header-content p {
@@ -135,6 +135,8 @@ production stylesheet in assets/built/screen.css
     margin: 0 auto;
     line-height: 1.2em;
     opacity: 0.8;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 1px 18px 5px;
 }
 
 @media (max-width: 600px) {
@@ -502,7 +504,7 @@ body:not(.gh-head-open) .gh-burger:hover .gh-burger-inner::after {
 }
 
 .home-template .gh-head.has-cover {
-    background: transparent;
+    background: rgba(0, 0, 0, 0.5);;
 }
 
 .home-template.gh-head-open .gh-head {
