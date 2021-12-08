@@ -2017,6 +2017,12 @@ html.dark-mode .site-archive-header .no-image {
     }
 }
 
+.p-hack {
+  font-family: var(--font-serif);
+  font-size: 2.1rem;
+  line-height: 1.6em;
+}
+
 /*
 
 Hey! You reached the end.
